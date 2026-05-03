@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Will You Be Mine?</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="hearts-container"></div>
+<!-- SCREEN 1 (AWAL) -->
+<div class="container" id="screen-ask">
+    <div class="card">
+
+        <!-- GANTI: pakai GIF lama di awal -->
+        <img
+            src="https://bemygirlfriend.netlify.app/src/windahalafyu.gif"
+            alt="cute"
+            class="main-img"
+        />
+
+        <h1>Will you be my girlfriend? 🥺</h1>
+
+        <div class="btn-group">
+            <button id="btn-yes" onclick="handleYes()">YES! 💕</button>
+            <button id="btn-no" onmouseover="moveNoBtn()" onclick="moveNoBtn()">no.</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- SCREEN 2 (SETELAH YES) -->
+<div id="screen-yes" class="container" style="display:none;">
+    <div class="card">
+
+        <h1>YAYYYY CIEE CIEEE  💖</h1>
+
+        <img src="/img/yippee-cat.gif" class="main-img" />
+
+    </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
