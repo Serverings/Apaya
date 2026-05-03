@@ -1,1 +1,1 @@
-web: java -jar build/libs/*.jar
+web: java -jar build/libs/apaya-0.0.1-SNAPSHOT.jar
